@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./spotify.css" />
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png"
+    />
+    <title>Spotify</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    ">
+  </head>
+  <body>
+    <!--side bar  -->
+    <div class="sidebar">
+      <!-- side box 1 -->
+
+      <div class="sidebar-nav">
+        <div class="logo">
+          <a href=""
+            ><img
+              src="./image/logo-new.png"
+              alt="spotify-logo"
+              class="spotify-logo"
+          /></a>
+        </div>
+
+        <ul>
+          <li>
+            <a href="">
+              <span><i class="fa-solid fa-house"></i></span>
+              <span>Home</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <span><i class="fa-solid fa-magnifying-glass"></i></span>
+              <span>Search</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- side box 2 -->
+
+      <div class="sidebar-nav box2">
+        <ul>
+          <li>
+            <a href="">
+              <span><i class="fa-solid fa-book"></i></span>
+              <span class="liabry">Your Library</span>
+            </a>
+          </li>
+
+          <!-- scroll bar -->
+
+          <li>
+            <div class="scroll-bar">
+              <div class="create-playlist">
+                <h4>Create your first playlist</h4>
+                <p>It's easy, we'll help you</p>
+                <button>Create Playlist</button>
+              </div>
+              <div class="create-playlist">
+                <h4>Let's find some prodcasts to follow</h4>
+                <p>we'll keep you updated on new episodes</p>
+                <button>Browse podcasts</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <!-- links-->
+
+        <div class="privacy">
+          <ul>
+            <li>
+              <a href="">Legal</a>
+              <a href="">Safe & Privacy Center</a>
+              <a href="">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="">Cookies</a>
+              <a href="">About Ads</a>
+              <a href="">Accessibility</a>
+            </li>
+            <li>
+              <a href="">Cookies</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- english button -->
+
+        <div class="eng-btn">
+          <button><i class="fa-solid fa-globe"></i>English</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- main section -->
+
+    <main>
+      
+      <div class="main-section">
+        <!-- section 1-->
+        <div class="top-nav">
+          <div class="prev-btn">
+            <button><i class="fa-solid fa-chevron-left"></i></button>
+            <button><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+          <div class="login-btn">
+            <button class="sign-btn">Sign up</button>
+            <button class="log-btn">Log in</button>
+          </div>
+        </div>
+
+        <!-- section 2 -->
+        <div class="spotify-playlist">
+          <h2>Popular Artists</h2>
+          <div class="top-card">
+            <div class="content">
+              <img src="./image/sithara.png" alt="Animal" id="artists" />
+              <div class="play-btn1">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>SITHARA</h4>
+              <p>Aritist</p>
+            </div>
+
+            <div class="content">
+              <img src="./image/baby jean.png" alt="" id="artists" />
+              <div class="play-btn1">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>BABY GEAN</h4>
+              <p>Artist</p>
+            </div>
+
+            <div class="content">
+              <img src="./image/hanumankind.png" alt="" id="artists" />
+              <div class="play-btn1">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>HANNUMANKIND</h4>
+              <p>Artist</p>
+            </div>
+
+            <div class="content">
+              <img src="./image/mhr.png" alt="" id="artists" />
+              <div class="play-btn1">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>M.H.R</h4>
+              <p>Artist</p>
+            </div>
+
+            <div class="content">
+              <img src="./image/item-7.jpg" alt="" id="artists" />
+              <div class="play-btn1">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>STILL ROLLIN</h4>
+              <p>Artist</p>
+            </div>
+          </div>
+        </div>
+        <!-- secttion 3 -->
+        <div class="spotify-playlist">
+          <h2>Popular Albums</h2>
+          <div class="card">
+            <div class="items">
+              <img src="./image/item-6.jpg" alt="Animal" />
+              <div class="play-btn">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>ANIMAL</h4>
+              <p>Manan Bhardwaj,Vishal Mishra,Jaani</p>
+            </div>
+
+            <div class="items">
+              <img src="./image/item-7.jpg" alt="" />
+              <div class="play-btn">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>Still Rollin</h4>
+              <p>Shu bh</p>
+            </div>
+
+            <div class="items">
+              <img src="./image/item-8.jpg" alt="" />
+              <div class="play-btn">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>Husn</h4>
+              <p>Anuv jain</p>
+            </div>
+
+            <div class="items">
+              <img src="./image/item-9.jpg" alt="" />
+              <div class="play-btn">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>Moosetape</h4>
+              <p>sidhu Moosa Wala</p>
+            </div>
+
+            <div class="items">
+              <img src="./image/item-10.jpg" alt="" />
+              <div class="play-btn">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>Satranga</h4>
+              <p>Arjit Singh,Shreyas Puranik,Siddharth</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- section 4 -->
+
+        <div class="spotify-playlist">
+          <h2>Trending</h2>
+          <div class="card">
+            <div class="items">
+              <img src="./image/baby jean.png" alt="baby gean" />
+              <div class="play-btn">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>Kaayi</h4>
+              <p>Baby Gean</p>
+            </div>
+
+            <div class="items">
+              <img src="./image/blue star.png" alt="blue star" />
+              <div class="play-btn">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>Railin Oligal</h4>
+              <p>Govind Vasantha</p>
+            </div>
+
+            <div class="items">
+              <img src="./image/hanumankind.png" alt="hanumankind" />
+              <div class="play-btn">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>Big Dawgs</h4>
+              <p>Hanumankind</p>
+            </div>
+
+            <div class="items">
+              <img src="./image/ithalee nee.png" alt="ithalee nee" />
+              <div class="play-btn">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>ithalee nee</h4>
+              <p>Najim Arshad</p>
+            </div>
+
+            <div class="items">
+              <img src="./image/mhr.png" alt="mhr" />
+              <div class="play-btn">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>Nalu Vettam</h4>
+              <p>M.H.R</p>
+            </div>
+          </div>
+        </div>
+        <!-- section 5 -->
+        <div class="spotify-playlist">
+          <h2>Recently Played</h2>
+          <div class="card">
+            <div class="items">
+              <img
+                src="./image/Mini-Maharani-From-Premalu.png"
+                alt="mini maharani"
+              />
+              <div class="play-btn">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>mini maharani</h4>
+              <p>Vishnu Vijay</p>
+            </div>
+
+            <div class="items">
+              <img src="./image/nadaaniyan.png" alt="nadaaniyan" />
+              <div class="play-btn">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>nadaaniyan</h4>
+              <p>Akshath</p>
+            </div>
+
+            <div class="items">
+              <img src="./image/o mahi.png" alt="o mahi" />
+              <div class="play-btn">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>O mahi</h4>
+              <p>Arjit Singh</p>
+            </div>
+
+            <div class="items">
+              <img src="./image/periyone.png" alt="periyone" />
+              <div class="play-btn">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>Periyone</h4>
+              <p>Jithin Raj</p>
+            </div>
+
+            <div class="items">
+              <img src="./image/premalu.png" alt="permalu" />
+              <div class="play-btn">
+                <span><i class="fa-solid fa-play"></i></span>
+              </div>
+              <h4>Kutty kudiye</h4>
+              <p>Vishnu Vijay</p>
+            </div>
+          </div>
+        </div>
+
+        <footer>
+          <div class="footer-section">
+            <div class="footer">
+              <div class="footer-links">
+                <div class="footer-column">
+                  <div>Company</div>
+                  <ul class="col-links">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Jobs</a></li>
+                    <li><a href="">For the Records</a></li>
+                  </ul>
+                </div>
+                <div class="footer-column">
+                  <div>Communities</div>
+                  <ul class="col-links">
+                    <li><a href="">Developers</a></li>
+                    <li><a href="">Advertising</a></li>
+                    <li><a href="">Investors</a></li>
+                    <li><a href="">Vendors</a></li>
+                  </ul>
+                </div>
+                <div class="footer-column">
+                  <div>Useful links</div>
+                  <ul class="col-links">
+                    <li><a href="">Support</a></li>
+                    <li><a href="">free Mobile App</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="socail-link">
+                <div>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <hr />
+        <div>
+          <p class="copyright">&copy; 2024 Spotify AB</p>
+        </div>
+      </div>
+    </main>
+    <div class="preview">
+      <div class="text">
+        <h4>Preview of Spotify</h4>
+        <p>
+          Sign up to get unlimited songs and prodcasts with occasional ads. No
+          credit card needed.
+        </p>
+      </div>
+      <div class="button">
+        <button>Sign up Free</button>
+      </div>
+    </div>
+  </body>
+</html>
